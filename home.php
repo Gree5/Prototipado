@@ -1,5 +1,5 @@
 <?php
-include 'views\log.php';
+include 'log.php';
 ?>
 <a name="" id="" class="btn btn-primary" href="home.php" role="button">Nuevo</a>
 <a name="" id="" class="btn btn-success" href="home.php" role="button">Registrar</a>
@@ -12,10 +12,12 @@ include 'views\log.php';
     <h5>Datos del cliente</h5>
     <div class="row">
     <div class="col-md-6">
+        <form method="post">
         <div class="form-container">
-        <div class="mb-3">
-            <label for="" class="form-label">NOMBRE</label>
-            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" disabled/>
+                <label for="" class="form-label">NOMBRE</label>
+            <div class="mb-3 d-flex align-items-center">
+                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" disabled/>
+                <a name="" id="" class="btn btn-primary" href="views/mantenimiento/cliente.php" role="button">...</a>
         </div>
         <div class="mb-3">
             <label for="" class="form-label">DIRECCIÓN</label>
@@ -33,8 +35,9 @@ include 'views\log.php';
         </div>
         <div class="mb-3">
             <label for="" class="form-label">FECHA DE REGISTRO</label>
-            <input type="date" class="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
+            <input type="date" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" disabled/>
         </div>
+    </form>
     </div>  
     </div>
     <div class="col-md-6">

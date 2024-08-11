@@ -1,5 +1,5 @@
 <?php
-include '..\log.php';
+include '..\..\log.php';
 ?>
 
 <div class="container">

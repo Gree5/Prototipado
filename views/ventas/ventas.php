@@ -1,5 +1,5 @@
 <?php
-include 'views\log.php';
+include '..\log.php';
 ?>
 <a name="" id="" class="btn btn-primary" href="home.php" role="button">Nuevo</a>
 <a name="" id="" class="btn btn-success" href="home.php" role="button">Registrar</a>

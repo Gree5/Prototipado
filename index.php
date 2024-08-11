@@ -1,8 +1,12 @@
 <?php
-include 'views\log.php';
+include 'log.php';
 ?>
 <div class="container">
+    <br><br>
     <div class="img i">
+    <div class="col-md-3">
+        <div class="form-container">
+        <div class="mb-3">
     <img src="public\img\perfil-de-usuario.webp" class="img-fluid rounded-top" alt="" width="200"/>
     </div>
     <br><br>
@@ -36,7 +40,7 @@ include 'views\log.php';
     class="btn btn-primary"
     href="home.php"
     role="button"
-    >Registrar</a
+    >Iniciar</a
 >
 
 </div>
